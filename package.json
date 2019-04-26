@@ -5,7 +5,7 @@
   "main": "dist/DiscordWebhook.js",
   "types": "./types/Webhook/index.d.ts",
   "scripts": {
-    "test": "tsc",
+    "test": "tsc --build tsconfig.spec.json",
     "prepublish": "npm test",
     "postpublish": "git push && git push --tags"
   },
