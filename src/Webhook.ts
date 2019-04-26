@@ -10,7 +10,7 @@ export default interface Webhook {
      * Message contents.
      * (Max 2000 characters)
      */
-    content: string;
+    content?: string;
 
     /**
      * Webhook username override
