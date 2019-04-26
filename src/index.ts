@@ -1,5 +1,5 @@
 import Axios, { AxiosInstance } from 'axios';
-import Webhook from '../types/Webhook';
+import WebhookBody from '../types/Webhook';
 import Embed from '../types/Embed';
 import EmbedThumbnail from '../types/Embed/Thumbnail';
 import EmbedVideo from '../types/Embed/Video';
@@ -28,7 +28,7 @@ export default class DiscordWebhook {
     /**
      * Execute a webhook request.
      */
-    public execute(options: Webhook) {
+    public execute(options: WebhookBody) {
         return this.client.request({
             method: 'POST',
             data: options,
@@ -46,5 +46,5 @@ export {
     EmbedThumbnail,
     EmbedVideo,
     Embed,
-    Webhook,
+    WebhookBody,
 }
