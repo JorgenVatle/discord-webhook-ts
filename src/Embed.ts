@@ -38,7 +38,7 @@ export default interface Embed {
     /**
      * color code of the embed.
      */
-    color: number;
+    color?: number;
 
     /**
      * Footer information.
