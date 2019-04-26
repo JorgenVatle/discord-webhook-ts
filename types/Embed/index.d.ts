@@ -25,6 +25,11 @@ export default interface Embed {
     type?: 'rich';
 
     /**
+     * URL of embed.
+     */
+    url?: string;
+
+    /**
      * Description of the embed.
      * Up to 2048 characters.
      */
