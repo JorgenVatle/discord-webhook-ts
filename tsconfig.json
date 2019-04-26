@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "target": "es6",
+    "rootDirs": [
+      "src",
+      "types"
+    ],
+    "outDir": "dist",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
@@ -11,11 +17,6 @@
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "types": [],
-    "noEmit": true,
     "forceConsistentCasingInFileNames": true
-  },
-  "files": [
-    "./types/Webhook/index.d.ts",
-    "./types/Webhook/webhook.test.ts"
-  ]
+  }
 }
