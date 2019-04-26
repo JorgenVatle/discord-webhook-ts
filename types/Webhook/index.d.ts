@@ -40,6 +40,6 @@ interface EmbedsWebhook {
  *
  * @link https://discordapp.com/developers/docs/resources/webhook#execute-webhook
  */
-type Webhook = BaseWebhook & ContentWebhook | FileWebhook | EmbedsWebhook;
+type DiscordWebhook = BaseWebhook & ContentWebhook | FileWebhook | EmbedsWebhook;
 
-export default Webhook;
+export default DiscordWebhook;
