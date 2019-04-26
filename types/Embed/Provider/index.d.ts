@@ -1,3 +1,8 @@
+/**
+ * Embed Provider Structure
+ *
+ * @link https://discordapp.com/developers/docs/resources/channel#embed-object-embed-provider-structure
+ */
 export default interface EmbedProvider {
 
     /**
