@@ -2,7 +2,7 @@
   "name": "discord-ts",
   "version": "1.0.0",
   "description": "Type definitions for the Discord API. 📘",
-  "main": "\"\"",
+  "types": "./types/Webhook/index.d.ts",
   "scripts": {
     "test": "tsc"
   },
