@@ -1,5 +1,10 @@
 import Attachment from '../../Attachment';
 
+/**
+ * Embed Thumbnail Structure
+ *
+ * @link https://discordapp.com/developers/docs/resources/channel#embed-object-embed-thumbnail-structure
+ */
 export default interface EmbedThumbnail {
     /**
      * Source URL of the thumbnail.
