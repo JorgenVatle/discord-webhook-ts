@@ -10,6 +10,9 @@
     "postpublish": "git push && git push --tags",
     "prepare": "tsc"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JorgenVatle/discord-ts.git"
