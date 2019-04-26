@@ -19,8 +19,6 @@ export default class DiscordWebhook {
 
     /**
      * Execute a webhook request.
-     *
-     * @param options
      */
     public execute(options: Webhook) {
         return this.client.request({
