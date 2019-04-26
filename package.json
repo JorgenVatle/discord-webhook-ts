@@ -25,5 +25,8 @@
   "homepage": "https://github.com/JorgenVatle/discord-ts#readme",
   "devDependencies": {
     "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
   }
 }
