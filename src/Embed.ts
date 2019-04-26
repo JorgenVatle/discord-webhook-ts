@@ -14,6 +14,7 @@ import EmbedField from './EmbedField';
 export default interface Embed {
     /**
      * Title of the embed.
+     * Up to 256 characters.
      */
     title?: string;
 
@@ -25,6 +26,7 @@ export default interface Embed {
 
     /**
      * Description of the embed.
+     * Up to 2048 characters.
      */
     description?: string;
 
@@ -70,6 +72,7 @@ export default interface Embed {
 
     /**
      * Fields information.
+     * Up to 25 fields.
      */
     fields?: EmbedField[];
 }
