@@ -3,13 +3,13 @@
  *
  * @link https://discordapp.com/developers/docs/resources/channel#embed-object
  */
-import EmbedFooter from './EmbedFooter';
-import EmbedImage from './EmbedImage';
-import EmbedThumbnail from './EmbedThumbnail';
-import EmbedVideo from './EmbedVideo';
-import EmbedProvider from './EmbedProvider';
-import EmbedAuthor from './EmbedAuthor';
-import EmbedField from './EmbedField';
+import EmbedFooter from './Footer';
+import EmbedImage from './Image';
+import EmbedThumbnail from './Thumbnail';
+import EmbedVideo from './Video';
+import EmbedProvider from './Provider';
+import EmbedAuthor from './Author';
+import EmbedField from './Field';
 
 export default interface Embed {
     /**

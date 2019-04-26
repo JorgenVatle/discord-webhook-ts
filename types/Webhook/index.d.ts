@@ -1,5 +1,5 @@
-import Embed from './Embed';
-import Attachment from './Attachment';
+import IndexD from '../Embed';
+import Attachment from '../Attachment';
 
 interface BaseWebhook {
     /**
@@ -32,7 +32,7 @@ interface EmbedsWebhook {
     /**
      * Embedded "rich" content.
      */
-    embeds: Embed[];
+    embeds: IndexD[];
 }
 
 /**
