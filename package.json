@@ -1,0 +1,24 @@
+{
+  "name": "discord-ts",
+  "version": "1.0.0",
+  "description": "Type definitions for the Discord API. 📘",
+  "main": "\"\"",
+  "scripts": {
+    "test": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgenVatle/discord-ts.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Discord",
+    "Webhooks"
+  ],
+  "author": "Jørgen Vatle <Jorgen@WcAServices.net> (https://github.com/JorgenVatle)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgenVatle/discord-ts/issues"
+  },
+  "homepage": "https://github.com/JorgenVatle/discord-ts#readme"
+}
