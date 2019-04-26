@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/JorgenVatle/discord-ts/issues"
   },
-  "homepage": "https://github.com/JorgenVatle/discord-ts#readme"
+  "homepage": "https://github.com/JorgenVatle/discord-ts#readme",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
 }
