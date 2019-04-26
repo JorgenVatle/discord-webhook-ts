@@ -15,6 +15,6 @@ export default interface EmbedField {
     /**
      * Whether or not this field should be displayed inline.
      */
-    inline: boolean;
+    inline?: boolean;
 
 }
