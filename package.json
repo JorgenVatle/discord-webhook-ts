@@ -4,7 +4,9 @@
   "description": "Type definitions for the Discord API. 📘",
   "types": "./types/Webhook/index.d.ts",
   "scripts": {
-    "test": "tsc"
+    "test": "tsc",
+    "prepublish": "npm test",
+    "postpublish": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
