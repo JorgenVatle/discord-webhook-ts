@@ -2,10 +2,16 @@ import Embed from '../Embed';
 import Attachment from '../Attachment';
 
 interface BaseWebhook {
+
     /**
-     * Webhook username override
+     * Webhook username override.
      */
     username?: string;
+
+    /**
+     * Webhook avatar override.
+     */
+    avatar_url: string;
 
     /**
      * Whether or not this notification should be read as text to speech.
