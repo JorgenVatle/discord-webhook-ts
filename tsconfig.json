@@ -2,6 +2,10 @@
   "compilerOptions": {
     "module": "commonjs",
     "strict": true,
-    "esModuleInterop": true,
-  }
+    "esModuleInterop": true
+  },
+  "files": [
+    "./types/Webhook/index.d.ts",
+    "./types/Webhook/webhook.test.ts"
+  ]
 }
