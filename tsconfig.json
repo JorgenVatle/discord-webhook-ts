@@ -2,8 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "rootDirs": [
-      "src",
-      "types"
+      "src"
     ],
     "outDir": "dist",
     "module": "commonjs",
@@ -18,5 +17,8 @@
     "strictFunctionTypes": true,
     "types": [],
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "exclude": [
+    "types"
+  ]
 }
