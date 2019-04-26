@@ -1,8 +1,22 @@
 {
-    "extends": "./tsconfig",
-    "exclude": [],
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": [
+            "es6"
+        ],
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "types": [],
+        "forceConsistentCasingInFileNames": true
+    },
     "files": [
         "./types/Webhook/index.d.ts",
-        "./types/Webhook/webhook.test.ts"
+        "./types/Webhook/webhook.test.ts",
+        "./src/DiscordWebhook.ts"
     ]
 }
