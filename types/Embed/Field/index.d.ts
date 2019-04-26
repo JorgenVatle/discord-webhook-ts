@@ -1,3 +1,8 @@
+/**
+ * Embed Field Structure
+ *
+ * @link https://discordapp.com/developers/docs/resources/channel#embed-object-embed-field-structure
+ */
 export default interface EmbedField {
 
     /**
