@@ -1,5 +1,10 @@
 import Attachment from '../../Attachment';
 
+/**
+ * Embed Image Structure
+ *
+ * @link https://discordapp.com/developers/docs/resources/channel#embed-object-embed-image-structure
+ */
 export default interface EmbedImage {
     /**
      * Source URL of the image.
