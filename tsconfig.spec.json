@@ -17,6 +17,6 @@
     "files": [
         "./types/Webhook/index.d.ts",
         "./types/Webhook/webhook.test.ts",
-        "./src/DiscordWebhook.ts"
+        "./src/index.ts"
     ]
 }

@@ -2,8 +2,8 @@
   "name": "discord-webhook-ts",
   "version": "2.0.0",
   "description": "Client & Type definitions for the Discord Webhooks API. 📘",
-  "main": "dist/DiscordWebhook.js",
-  "types": "dist/DiscordWebhook.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "tsc --build tsconfig.spec.json",
     "prepublish": "npm test",
