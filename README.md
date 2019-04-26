@@ -42,8 +42,7 @@ DiscordWebhook.execute({
 ## Usage (TypeScript users)
 Pull in and attach the Discord [`WebhookBody`](types/Webhook/index.d.ts) interface to your request object.
 ```typescript
-import DiscordWebhook from 'discord-webhook-ts';
-import WebhookBody from 'discord-webhook-ts/types/Webhook';
+import DiscordWebhook, { WebhookBody } from 'discord-webhook-ts';
 
 // Pass in your Discord webhook URL.
 const DiscordClient = new DiscordWebhook('https://discordapp.com/api/webhooks/4752...');
