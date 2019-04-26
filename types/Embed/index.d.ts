@@ -1,8 +1,3 @@
-/**
- * Embed object.
- *
- * @link https://discordapp.com/developers/docs/resources/channel#embed-object
- */
 import EmbedFooter from './Footer';
 import EmbedImage from './Image';
 import EmbedThumbnail from './Thumbnail';
@@ -11,6 +6,11 @@ import EmbedProvider from './Provider';
 import EmbedAuthor from './Author';
 import EmbedField from './Field';
 
+/**
+ * Embed object.
+ *
+ * @link https://discordapp.com/developers/docs/resources/channel#embed-object
+ */
 export default interface Embed {
     /**
      * Title of the embed.
