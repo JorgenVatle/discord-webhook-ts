@@ -13,7 +13,7 @@ npm install discord-ts
 ## Usage
 Pull in and attach the [`DiscordWebhook`](blob/master/types/Webhook/index.d.ts) interface to your request object.
 ```typescript
-import DiscordWebhook from 'discord-ts';
+import DiscordWebhook from 'discord-webhook-ts';
 
 const requestBody: DiscordWebhook = {
     embeds: [
