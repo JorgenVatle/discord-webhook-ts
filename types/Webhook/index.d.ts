@@ -25,7 +25,7 @@ interface FileWebhook {
     /**
      * Contents of a file being sent.
      */
-    file: Attachment;
+    file: Attachment | string;
 }
 
 interface EmbedsWebhook {
