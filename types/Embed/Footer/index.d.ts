@@ -1,5 +1,10 @@
 import Attachment from '../../Attachment';
 
+/**
+ * Embed Footer Structure
+ *
+ * @link https://discordapp.com/developers/docs/resources/channel#embed-object-embed-footer-structure
+ */
 export default interface EmbedFooter {
 
     /**
