@@ -11,7 +11,7 @@ interface BaseWebhook {
     /**
      * Webhook avatar override.
      */
-    avatar_url: string;
+    avatar_url?: string;
 
     /**
      * Whether or not this notification should be read as text to speech.
