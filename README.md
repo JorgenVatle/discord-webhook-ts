@@ -1,8 +1,9 @@
 # Discord Webhook Types
 Predefined TypeScript types and documentation for Discord webhook requests.
 
-This package contains type definitions for all properties you can pass to a Discord webhook execution request, along 
-with descriptions for each property.
+This package contains type definitions for all properties you can pass to a 
+[Discord webhook execution request](https://discordapp.com/developers/docs/resources/webhook#execute-webhook), 
+along with descriptions for each property.
 
 ## Installation
 Pull in the package from npm:
