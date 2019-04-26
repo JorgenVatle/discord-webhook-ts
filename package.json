@@ -7,7 +7,8 @@
   "scripts": {
     "test": "tsc --build tsconfig.spec.json",
     "prepublish": "npm test",
-    "postpublish": "git push && git push --tags"
+    "postpublish": "git push && git push --tags",
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
