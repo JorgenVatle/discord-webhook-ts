@@ -1,3 +1,8 @@
+/**
+ * Embed Video Structure
+ *
+ * @link https://discordapp.com/developers/docs/resources/channel#embed-object-embed-video-structure
+ */
 export default interface EmbedVideo {
     /**
      * Source URL of the video.
