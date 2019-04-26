@@ -3,6 +3,14 @@
  *
  * @link https://discordapp.com/developers/docs/resources/channel#embed-object
  */
+import EmbedFooter from './EmbedFooter';
+import EmbedImage from './EmbedImage';
+import EmbedThumbnail from './EmbedThumbnail';
+import EmbedVideo from './EmbedVideo';
+import EmbedProvider from './EmbedProvider';
+import EmbedAuthor from './EmbedAuthor';
+import EmbedField from './EmbedField';
+
 export default interface Embed {
     /**
      * Title of the embed.
@@ -29,5 +37,40 @@ export default interface Embed {
      * color code of the embed.
      */
     color: number;
+
+    /**
+     * Footer information.
+     */
+    footer?: EmbedFooter;
+
+    /**
+     * Image information.
+     */
+    image?: EmbedImage;
+
+    /**
+     * Thumbnail information.
+     */
+    thumbnail?: EmbedThumbnail;
+
+    /**
+     * Video information.
+     */
+    video?: EmbedVideo;
+
+    /**
+     * Provider information.
+     */
+    provider?: EmbedProvider;
+
+    /**
+     * Author information.
+     */
+    author?: EmbedAuthor;
+
+    /**
+     * Fields information.
+     */
+    fields?: EmbedField[];
 }
 
