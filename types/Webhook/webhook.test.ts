@@ -1,10 +1,10 @@
-import DiscordWebhook from './index';
+import Webhook from './index';
 
-const contentRequest: DiscordWebhook = {
+const contentRequest: Webhook = {
     content: 'Some message',
 };
 
-const embedRequest: DiscordWebhook = {
+const embedRequest: Webhook = {
     embeds: [
         {
             title: 'Some title',
@@ -21,6 +21,6 @@ const embedRequest: DiscordWebhook = {
     ]
 };
 
-const fileRequest: DiscordWebhook = {
+const fileRequest: Webhook = {
     file: 'some plaintext file',
 };
