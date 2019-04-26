@@ -1,9 +1,11 @@
+import Attachment from './Attachment';
+
 export default interface EmbedImage {
     /**
      * Source URL of the image.
      * (Only supports http(s) and attachments)
      */
-    url: string;
+    url: string | Attachment;
 
     /**
      * A proxied URL of the thumbnail.

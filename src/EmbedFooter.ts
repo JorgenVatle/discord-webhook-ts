@@ -1,3 +1,5 @@
+import Attachment from './Attachment';
+
 export default interface EmbedFooter {
 
     /**
@@ -9,7 +11,7 @@ export default interface EmbedFooter {
      * URL of the footer icon.
      * Only supports HTTP(s) and attachments
      */
-    icon_url?: string;
+    icon_url?: string | Attachment;
 
     /**
      * A proxied URL of the footer icon.
