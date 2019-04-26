@@ -1,5 +1,5 @@
-import Webhook from '../types/Webhook';
 import Axios, { AxiosInstance } from 'axios';
+import Webhook from '../types/Webhook';
 
 export default class DiscordWebhook {
 
