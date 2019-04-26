@@ -20,6 +20,7 @@
     "forceConsistentCasingInFileNames": true
   },
   "exclude": [
-    "types"
+    "types",
+    "dist"
   ]
 }
