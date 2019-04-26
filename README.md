@@ -8,7 +8,7 @@ along with descriptions for each property.
 ## Installation
 Pull in the package from npm:
 ```bash
-npm install discord-ts
+npm install discord-webhook-ts
 ``` 
 
 ## Usage
