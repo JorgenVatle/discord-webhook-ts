@@ -3,7 +3,7 @@ export default interface EmbedThumbnail {
      * Source URL of the thumbnail.
      * (Only supports http(s) and attachments)
      */
-    url?: string;
+    url: string;
 
     /**
      * A proxied URL of the thumbnail.
@@ -13,10 +13,10 @@ export default interface EmbedThumbnail {
     /**
      * Height of the thumbnail.
      */
-    height: number;
+    height?: number;
 
     /**
      * Width of the thumbnail.
      */
-    width: number;
+    width?: number;
 }
