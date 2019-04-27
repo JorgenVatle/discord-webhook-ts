@@ -45,6 +45,15 @@ export default class DiscordWebhook {
         });
     }
 
+    /**
+     * Get the current webhook.
+     */
+    public get() {
+        return this.client.request({
+            method: 'GET',
+        })
+    }
+
 }
 
 export {
