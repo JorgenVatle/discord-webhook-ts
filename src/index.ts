@@ -28,7 +28,7 @@ export default class DiscordWebhook {
     /**
      * Execute the current webhook.
      */
-    public execute(options: Webhook.POST) {
+    public execute(options: Webhook.input.POST) {
         return this.client.request({
             method: 'POST',
             data: options,
@@ -38,7 +38,7 @@ export default class DiscordWebhook {
     /**
      * Modify the current webhook.
      */
-    public modify(options: Webhook.PATCH) {
+    public modify(options: Webhook.input.PATCH) {
         return this.client.request({
             method: 'PATCH',
             data: options,
@@ -48,7 +48,7 @@ export default class DiscordWebhook {
     /**
      * Get the current webhook.
      */
-    public get(): AxiosPromise<Webhook.GET> {
+    public get(): AxiosPromise<Webhook.response.GET> {
         return this.client.request({
             method: 'GET',
         })
