@@ -1,4 +1,4 @@
-import Axios, { AxiosInstance, AxiosPromise, AxiosResponse } from 'axios';
+import Axios, { AxiosInstance, AxiosPromise } from 'axios';
 import Webhook from '../types/Webhook';
 import Embed from '../types/Embed';
 import EmbedThumbnail from '../types/Embed/Thumbnail';
