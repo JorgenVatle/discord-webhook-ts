@@ -1,13 +1,5 @@
 import Axios, { AxiosInstance, AxiosPromise } from 'axios';
-import Webhook from '../types/Webhook';
-import Embed from '../types/Embed';
-import EmbedThumbnail from '../types/Embed/Thumbnail';
-import EmbedVideo from '../types/Embed/Video';
-import EmbedProvider from '../types/Embed/Provider';
-import EmbedImage from '../types/Embed/Image';
-import EmbedFooter from '../types/Embed/Footer';
-import EmbedField from '../types/Embed/Field';
-import EmbedAuthor from '../types/Embed/Author';
+import * as Webhook from '../types/Webhook';
 
 export default class DiscordWebhook {
 
@@ -63,16 +55,4 @@ export default class DiscordWebhook {
             .catch(() => false);
     }
 
-}
-
-export {
-    EmbedAuthor,
-    EmbedField,
-    EmbedFooter,
-    EmbedImage,
-    EmbedProvider,
-    EmbedThumbnail,
-    EmbedVideo,
-    Embed,
-    Webhook,
 }
