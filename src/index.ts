@@ -54,6 +54,15 @@ export default class DiscordWebhook {
         })
     }
 
+    /**
+     * Check whether or not the current webhook is valid.
+     */
+    public isValid() {
+        return this.get()
+            .then(() => true)
+            .catch(() => false);
+    }
+
 }
 
 export {
