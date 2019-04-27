@@ -1,6 +1,6 @@
 {
   "name": "discord-webhook-ts",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "description": "Client & Type definitions for the Discord Webhooks API. 📘",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
