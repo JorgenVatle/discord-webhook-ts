@@ -1,10 +1,10 @@
 import Webhook from './index';
 
-const contentRequest: Webhook = {
+const contentRequest: Webhook.input.POST = {
     content: 'Some message',
 };
 
-const embedRequest: Webhook = {
+const embedRequest: Webhook.input.POST = {
     embeds: [
         {
             title: 'Some title',
@@ -21,6 +21,6 @@ const embedRequest: Webhook = {
     ]
 };
 
-const fileRequest: Webhook = {
+const fileRequest: Webhook.input.POST = {
     file: 'some plaintext file',
 };
