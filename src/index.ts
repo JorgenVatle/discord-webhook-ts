@@ -57,7 +57,7 @@ export default class DiscordWebhook {
     /**
      * Check whether or not the current webhook is valid.
      */
-    public isValid() {
+    public isValid(): Promise<boolean> {
         return this.get()
             .then(() => true)
             .catch(() => false);
