@@ -17,12 +17,12 @@ Pull in the webhook client and enjoy auto-completion from your IDE.
 import DiscordWebhook from 'discord-webhook-ts';
 
 // Pass in your Discord webhook URL.
-const DiscordClient = new DiscordWebhook('https://discordapp.com/api/webhooks/4752...');
+const discordClient = new DiscordWebhook('https://discordapp.com/api/webhooks/4752...');
 ```
 
 ##### Execute a webhook
 ```js
-DiscordWebhook.execute({
+discordClient.execute({
     embeds: [
         {
             title: 'Some title',
@@ -44,12 +44,12 @@ DiscordWebhook.execute({
 
 ##### Get the current webhook information
 ```js
-DiscordWebhook.get().then((response) => console.log(response.data))
+discordClient.get().then((response) => console.log(response.data))
 ```
 
 ##### Update the current webhook
 ```js
-DiscordWebhook.modify({
+discordClient.modify({
     name: 'new name',
     avatar: 'https://via.placeholder.com/150',
 }).then((response) => {
@@ -63,7 +63,7 @@ Pull in and attach the Discord [`Webhook.input.POST`](types/Webhook/index.d.ts) 
 import DiscordWebhook, { Webhook } from 'discord-webhook-ts';
 
 // Pass in your Discord webhook URL.
-const DiscordClient = new DiscordWebhook('https://discordapp.com/api/webhooks/4752...');
+const discordClient = new DiscordWebhook('https://discordapp.com/api/webhooks/4752...');
 
 const requestBody: Webhook.input.POST = {
     embeds: [
@@ -82,7 +82,7 @@ const requestBody: Webhook.input.POST = {
     ]
 };
 
-DiscordClient.execute(requestBody) // -> Promise<AxiosResponse>
+discordClient.execute(requestBody) // -> Promise<AxiosResponse>
 ```
 
 ## Contributing
