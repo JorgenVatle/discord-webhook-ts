@@ -8,6 +8,7 @@ import EmbedProvider from './Embed/Provider';
 import EmbedThumbnail from './Embed/Thumbnail';
 import EmbedVideo from './Embed/Video';
 import Embed from './Embed';
+import User from './User';
 
 export default DiscordWebhook;
 
@@ -20,5 +21,6 @@ export {
     EmbedThumbnail,
     EmbedVideo,
     Embed,
+    User,
     Webhook,
 }
