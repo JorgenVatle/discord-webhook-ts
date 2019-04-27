@@ -18,7 +18,10 @@ import DiscordWebhook from 'discord-webhook-ts';
 
 // Pass in your Discord webhook URL.
 const DiscordClient = new DiscordWebhook('https://discordapp.com/api/webhooks/4752...');
+```
 
+##### Execute a webhook
+```js
 DiscordWebhook.execute({
     embeds: [
         {
@@ -36,18 +39,33 @@ DiscordWebhook.execute({
     ]
 }).then((response) => {
     console.log('Successfully sent webhook.')
-});
+})
+```
+
+##### Get the current webhook information
+```js
+DiscordWebhook.get().then((response) => console.log(response.data))
+```
+
+##### Update the current webhook
+```js
+DiscordWebhook.modify({
+    name: 'new name',
+    avatar: 'https://via.placeholder.com/150',
+}).then((response) => {
+    console.log('Successfully updated webhook!');
+})
 ```
 
 ## Usage (TypeScript users)
-Pull in and attach the Discord [`WebhookBody`](types/Webhook/index.d.ts) interface to your request object.
+Pull in and attach the Discord [`Webhook.input.POST`](types/Webhook/index.d.ts) interface to your request object.
 ```typescript
-import DiscordWebhook, { WebhookBody } from 'discord-webhook-ts';
+import DiscordWebhook, { Webhook } from 'discord-webhook-ts';
 
 // Pass in your Discord webhook URL.
 const DiscordClient = new DiscordWebhook('https://discordapp.com/api/webhooks/4752...');
 
-const requestBody: WebhookBody = {
+const requestBody: Webhook.input.POST = {
     embeds: [
         {
             title: 'Some title',
@@ -62,9 +80,9 @@ const requestBody: WebhookBody = {
             ]
         }
     ]
-}
+};
 
-DiscordClient.execute(requestBody); // -> Promise<AxiosResponse>
+DiscordClient.execute(requestBody) // -> Promise<AxiosResponse>
 ```
 
 ## Contributing
