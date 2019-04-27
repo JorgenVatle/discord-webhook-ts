@@ -5,6 +5,8 @@ import User from '../User';
 declare namespace input {
     /**
      * Modify a webhook
+     *
+     * @link https://discordapp.com/developers/docs/resources/webhook#modify-webhook
      */
     export interface PATCH {
 
