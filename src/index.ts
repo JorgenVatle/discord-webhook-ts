@@ -26,13 +26,23 @@ export default class DiscordWebhook {
     }
 
     /**
-     * Execute a webhook request.
+     * Execute the current webhook.
      */
     public execute(options: Webhook.POST) {
         return this.client.request({
             method: 'POST',
             data: options,
         })
+    }
+
+    /**
+     * Modify the current webhook.
+     */
+    public modify(options: Webhook.PATCH) {
+        return this.client.request({
+            method: 'PATCH',
+            data: options,
+        });
     }
 
 }
