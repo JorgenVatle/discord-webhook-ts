@@ -1,4 +1,4 @@
-import Axios, { AxiosInstance } from 'axios';
+import Axios, { AxiosInstance, AxiosPromise, AxiosResponse } from 'axios';
 import Webhook from '../types/Webhook';
 import Embed from '../types/Embed';
 import EmbedThumbnail from '../types/Embed/Thumbnail';
@@ -48,7 +48,7 @@ export default class DiscordWebhook {
     /**
      * Get the current webhook.
      */
-    public get() {
+    public get(): AxiosPromise<Webhook.GET> {
         return this.client.request({
             method: 'GET',
         })
