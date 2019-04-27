@@ -1,5 +1,6 @@
 import Embed from '../Embed';
 import Attachment from '../Attachment';
+import User from '../User';
 
 interface BaseWebhook {
 
@@ -47,5 +48,46 @@ interface EmbedsWebhook {
  * @link https://discordapp.com/developers/docs/resources/webhook#execute-webhook
  */
 type Webhook = BaseWebhook & ContentWebhook | FileWebhook | EmbedsWebhook;
+
+export interface GetWebhookResponse {
+
+    /**
+     * ID of the current webhook.
+     * Snowflake
+     */
+    id: string;
+
+    /**
+     * ID of the channel this webhook belongs to.
+     * Snowflake
+     */
+    channel_id: string;
+
+    /**
+     * ID of the guild this webhook belongs to.
+     * Snowflake
+     */
+    guild_id: string;
+
+    /**
+     * User that created this webhook.
+     */
+    user?: User,
+
+    /**
+     * Name of the current webhook.
+     */
+    name: string;
+
+    /**
+     * Avatar of the current webhook.
+     */
+    avatar: string;
+
+    /**
+     * Secure token of the current webhook.
+     */
+    token: string;
+}
 
 export default Webhook;
