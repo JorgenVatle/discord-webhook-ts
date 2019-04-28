@@ -12,7 +12,8 @@
   },
   "files": [
     "dist/**/*",
-    "types/**/*"
+    "types/**/*",
+    "src/**/*"
   ],
   "repository": {
     "type": "git",
