@@ -13,7 +13,7 @@ export default class DiscordWebhook {
      */
     public constructor(webhookUrl: string) {
         this.client = Axios.create({
-            url: webhookUrl,
+          baseURL: webhookUrl,
         });
     }
 
