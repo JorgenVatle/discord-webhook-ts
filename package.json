@@ -1,6 +1,6 @@
 {
   "name": "discord-webhook-ts",
-  "version": "3.0.3",
+  "version": "4.0.0",
   "description": "Client & Type definitions for the Discord Webhooks API. 📘",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
@@ -12,8 +12,7 @@
   },
   "files": [
     "dist/**/*",
-    "types/**/*",
-    "src/**/*"
+    "types/**/*"
   ],
   "repository": {
     "type": "git",
@@ -31,9 +30,9 @@
   },
   "homepage": "https://github.com/JorgenVatle/discord-ts#readme",
   "devDependencies": {
-    "typescript": "^3.4.5"
+    "typescript": "^4.2"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.24.0"
   }
 }
