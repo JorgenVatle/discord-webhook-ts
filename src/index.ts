@@ -6,7 +6,7 @@ export default class DiscordWebhook {
     /**
      * Discord Webhook URL
      */
-    private client: AxiosInstance;
+    protected client: AxiosInstance;
 
     /**
      * Discord Webhook constructor
