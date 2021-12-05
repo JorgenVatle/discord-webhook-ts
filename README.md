@@ -58,7 +58,7 @@ discordClient.modify({
 ```
 
 ## Usage (TypeScript users)
-Pull in and attach the Discord [`Webhook.input.POST`](src/types/Webhook/index.d.ts) interface to your request object.
+Pull in and attach the Discord [`Webhook.input.POST`](src/Types/Webhook/index.d.ts) interface to your request object.
 ```typescript
 import DiscordWebhook, { Webhook } from 'discord-webhook-ts';
 
