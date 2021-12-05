@@ -17,8 +17,8 @@
         "forceConsistentCasingInFileNames": true
     },
     "files": [
-        "./types/Webhook/index.d.ts",
-        "./types/Webhook/webhook.test.ts",
+        "./src/types/Webhook/index.d.ts",
+        "./src/types/Webhook/webhook.test.ts",
         "./src/index.ts"
     ]
 }
