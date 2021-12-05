@@ -70,3 +70,6 @@ dist
 
 # npm package-lock
 package-lock.json
+
+# Local secret configs
+config/local.json
