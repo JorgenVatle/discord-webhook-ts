@@ -6,7 +6,7 @@
     ],
     "outDir": "dist",
     "module": "commonjs",
-    "declaration": false,
+    "declaration": true,
     "strict": true,
     "esModuleInterop": true,
     "lib": [
@@ -21,7 +21,6 @@
     "forceConsistentCasingInFileNames": true
   },
   "exclude": [
-    "types",
     "dist"
   ]
 }

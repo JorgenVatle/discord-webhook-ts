@@ -1,4 +1,4 @@
-import DiscordWebhook from '../src/index';
+import DiscordWebhook from '../index';
 import * as Webhook from './Webhook';
 import EmbedAuthor from './Embed/Author';
 import EmbedField from './Embed/Field';
