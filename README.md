@@ -1,5 +1,6 @@
 # Discord Webhook Types
 Predefined TypeScript types and documentation for Discord webhook requests.
+![tests](https://github.com/JorgenVatle/discord-webhook-ts/actions/workflows/tests.yml/badge.svg)
 
 This package contains type definitions for all properties you can pass to a 
 [Discord webhook execution request](https://discordapp.com/developers/docs/resources/webhook#execute-webhook), 
