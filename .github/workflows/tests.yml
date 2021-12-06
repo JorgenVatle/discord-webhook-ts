@@ -6,6 +6,9 @@ jobs:
       - name: 'Checkout Git Repository'
         uses: actions/checkout@v2
 
+      - name: 'Add secrets to repository'
+        run: echo '${{secrets.LOCAL_CONFIG}}' > config/local.json
+
       - name: 'Install modules'
         run: npm i
 
