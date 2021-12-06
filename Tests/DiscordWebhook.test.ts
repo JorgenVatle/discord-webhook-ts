@@ -1,4 +1,4 @@
-import DiscordWebhook from '../index';
+import DiscordWebhook from '../src';
 import Config from 'config';
 
 describe('DiscordWebhook', () => {
