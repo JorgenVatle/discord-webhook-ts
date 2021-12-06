@@ -17,7 +17,7 @@ describe('DiscordWebhook', () => {
     it('can send messages', async () => {
         await discord.execute({
             username: OS.hostname(),
-            content: `Testing testing - ${Date.now()}`
+            content: `Testing testing - ${new Date().toISOString()}`
         })
     })
 
