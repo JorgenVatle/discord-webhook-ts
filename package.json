@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/JorgenVatle/discord-ts#readme",
   "devDependencies": {
+    "@types/config": "^0.0.40",
     "@types/jest": "^27.0.3",
     "config": "^3.3.6",
     "jest": "^27.4.3",
