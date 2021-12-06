@@ -1,7 +1,10 @@
 import DiscordWebhook from '../src';
 import Config from 'config';
+import OS from 'os';
 
 describe('DiscordWebhook', () => {
+
+    const discord = new DiscordWebhook(Config.get('webhookUrl'));
 
     it('can validate a webhook URL', async () => {
         const validDiscordInstance = new DiscordWebhook(Config.get('webhookUrl'));
@@ -9,6 +12,13 @@ describe('DiscordWebhook', () => {
 
         expect(await validDiscordInstance.isValid()).toBe(true);
         expect(await invalidDiscordInstance.isValid()).toBe(false);
+    })
+
+    it('can send messages', async () => {
+        await discord.execute({
+            username: OS.hostname(),
+            content: `Testing testing - ${Date.now()}`
+        })
     })
 
 })
